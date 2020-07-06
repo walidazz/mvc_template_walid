@@ -1,0 +1,63 @@
+#drop section {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+#drop article {
+	border: solid black 0.5vw;
+	border-radius: 0.5vw;
+	width: 25vw;
+	margin: 1vw;
+	padding: 1vw;
+}
+#drop h3 {
+	margin-top: 0.5vw;
+}
+#drop a {
+	text-decoration: none;
+	color: black;
+}
+
+#signIn h1,#signIn span {
+	text-align: center;
+}
+#signIn span {
+	display: block;
+	width: 100%;
+	margin-bottom: 1vw;
+	color: blue;
+}
+#signIn form {
+	 display: flex;
+	 flex-flow: column wrap;
+	 justify-content: center;
+	 align-items: center;
+}
+#signIn form input {
+	margin-bottom: 1vw;
+	border-radius: 0.5vw;
+	border: solid 0.1vw black;
+	padding: 1vw 0.5vw;
+	width: 25vw;
+}
+#signIn form input:focus {
+	box-shadow: 0vw 0vw 0vw 0.2vw blue; 
+}
+#signIn input[type='submit'] {
+	width: 15vw;
+	cursor: pointer;
+}
+#signIn input[type='submit']:hover {
+	background:blue;
+	color: white;
+}
+#userUpdate {
+	display:none;
+}
+#userUpdate form {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}

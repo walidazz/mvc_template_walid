@@ -1,0 +1,9 @@
+{
+	"pseudo" : "toto",
+	"email" : "toto@titi.fr",
+	"adresse" : {
+		"num_voie" : 2,
+		"voie" : "avenue de titi",
+		"postal" : 34000
+	}
+}
